@@ -17,9 +17,9 @@ export default function About({ pageTitle }) {
       exit='end'
     >
       <motion.h3 variants={iconsAnim}>Hello there, My name is</motion.h3>
-      <motion.h2 variants={nameAnim}>Jiro Matsumoto</motion.h2>
+      <motion.h2 variants={nameAnim}>Gwakisa Mwangomo</motion.h2>
       <motion.h5 variants={iconsAnim}>
-        - Full Stack Blockchain Engineer -<br />
+        - Full Stack Engineer -<br />
         {Math.random() < 0
           ? 'Dream it possible!'
           : 'Nobody is perfect, I am nobody.'}
